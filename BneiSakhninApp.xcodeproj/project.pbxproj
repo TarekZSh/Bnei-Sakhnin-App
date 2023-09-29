@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC22B22E2AC4793000B7C3BD /* BneiSakhninApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22B22D2AC4793000B7C3BD /* BneiSakhninApp.swift */; };
+		BC22B2302AC4793000B7C3BD /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22B22F2AC4793000B7C3BD /* SignInView.swift */; };
+		BC22B2322AC4793000B7C3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC22B2312AC4793000B7C3BD /* Assets.xcassets */; };
+		BC22B2362AC4793000B7C3BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC22B2352AC4793000B7C3BD /* Preview Assets.xcassets */; };
+		BC22B23D2AC47C0600B7C3BD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22B23C2AC47C0600B7C3BD /* MainView.swift */; };
+		BC22B23F2AC47CCB00B7C3BD /* SakhninLogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC22B23E2AC47CCB00B7C3BD /* SakhninLogo.jpeg */; };
+		BC22B2412AC47D4F00B7C3BD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22B2402AC47D4F00B7C3BD /* SignUpView.swift */; };
+		BC34BAF32AC61DC10040D3C2 /* MainView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC34BAF22AC61DC10040D3C2 /* MainView1.swift */; };
+		BC61D0582AC484AD008B0745 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC61D0572AC484AD008B0745 /* GoogleService-Info.plist */; };
+		BC61D05B2AC48514008B0745 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BC61D05A2AC48514008B0745 /* FirebaseAuth */; };
+		BC61D05D2AC48514008B0745 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BC61D05C2AC48514008B0745 /* FirebaseDatabase */; };
+		BC61D05F2AC48E18008B0745 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61D05E2AC48E18008B0745 /* InputView.swift */; };
+		BCF014AF2AC6E9310065B7AA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF014AE2AC6E9310065B7AA /* Home.swift */; };
+		BCF014B12AC6E93B0065B7AA /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF014B02AC6E93B0065B7AA /* Fixtures.swift */; };
+		BCF014B32AC6E9460065B7AA /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF014B22AC6E9460065B7AA /* Videos.swift */; };
+		BCF014B52AC6E94B0065B7AA /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF014B42AC6E94B0065B7AA /* Shop.swift */; };
+		BCF014B72AC6E94E0065B7AA /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF014B62AC6E94E0065B7AA /* More.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC22B22A2AC4793000B7C3BD /* Bnei Sakhnin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bnei Sakhnin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC22B22D2AC4793000B7C3BD /* BneiSakhninApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BneiSakhninApp.swift; sourceTree = "<group>"; };
+		BC22B22F2AC4793000B7C3BD /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		BC22B2312AC4793000B7C3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC22B2332AC4793000B7C3BD /* BneiSakhninDB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BneiSakhninDB.entitlements; sourceTree = "<group>"; };
+		BC22B2352AC4793000B7C3BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC22B23C2AC47C0600B7C3BD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BC22B23E2AC47CCB00B7C3BD /* SakhninLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SakhninLogo.jpeg; sourceTree = "<group>"; };
+		BC22B2402AC47D4F00B7C3BD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		BC34BAF22AC61DC10040D3C2 /* MainView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView1.swift; sourceTree = "<group>"; };
+		BC61D0572AC484AD008B0745 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC61D05E2AC48E18008B0745 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		BCF014AE2AC6E9310065B7AA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BCF014B02AC6E93B0065B7AA /* Fixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
+		BCF014B22AC6E9460065B7AA /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		BCF014B42AC6E94B0065B7AA /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		BCF014B62AC6E94E0065B7AA /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC22B2272AC4793000B7C3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC61D05D2AC48514008B0745 /* FirebaseDatabase in Frameworks */,
+				BC61D05B2AC48514008B0745 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC22B2212AC4792F00B7C3BD = {
+			isa = PBXGroup;
+			children = (
+				BC22B22C2AC4793000B7C3BD /* BneiSakhninApp */,
+				BC22B22B2AC4793000B7C3BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC22B22B2AC4793000B7C3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC22B22A2AC4793000B7C3BD /* Bnei Sakhnin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC22B22C2AC4793000B7C3BD /* BneiSakhninApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC22B22D2AC4793000B7C3BD /* BneiSakhninApp.swift */,
+				BC22B22F2AC4793000B7C3BD /* SignInView.swift */,
+				BC22B2402AC47D4F00B7C3BD /* SignUpView.swift */,
+				BC22B23C2AC47C0600B7C3BD /* MainView.swift */,
+				BC34BAF22AC61DC10040D3C2 /* MainView1.swift */,
+				BC61D05E2AC48E18008B0745 /* InputView.swift */,
+				BCF014AD2AC6E9120065B7AA /* FiveMainPages */,
+				BC22B2312AC4793000B7C3BD /* Assets.xcassets */,
+				BC22B2332AC4793000B7C3BD /* BneiSakhninDB.entitlements */,
+				BC22B2342AC4793000B7C3BD /* Preview Content */,
+				BC61D0572AC484AD008B0745 /* GoogleService-Info.plist */,
+			);
+			path = BneiSakhninApp;
+			sourceTree = "<group>";
+		};
+		BC22B2342AC4793000B7C3BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC22B23E2AC47CCB00B7C3BD /* SakhninLogo.jpeg */,
+				BC22B2352AC4793000B7C3BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCF014AD2AC6E9120065B7AA /* FiveMainPages */ = {
+			isa = PBXGroup;
+			children = (
+				BCF014AE2AC6E9310065B7AA /* Home.swift */,
+				BCF014B02AC6E93B0065B7AA /* Fixtures.swift */,
+				BCF014B22AC6E9460065B7AA /* Videos.swift */,
+				BCF014B42AC6E94B0065B7AA /* Shop.swift */,
+				BCF014B62AC6E94E0065B7AA /* More.swift */,
+			);
+			path = FiveMainPages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC22B2292AC4793000B7C3BD /* BneiSakhninApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC22B2392AC4793000B7C3BD /* Build configuration list for PBXNativeTarget "BneiSakhninApp" */;
+			buildPhases = (
+				BC22B2262AC4793000B7C3BD /* Sources */,
+				BC22B2272AC4793000B7C3BD /* Frameworks */,
+				BC22B2282AC4793000B7C3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BneiSakhninApp;
+			packageProductDependencies = (
+				BC61D05A2AC48514008B0745 /* FirebaseAuth */,
+				BC61D05C2AC48514008B0745 /* FirebaseDatabase */,
+			);
+			productName = LogInDB;
+			productReference = BC22B22A2AC4793000B7C3BD /* Bnei Sakhnin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC22B2222AC4792F00B7C3BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BC22B2292AC4793000B7C3BD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BC22B2252AC4792F00B7C3BD /* Build configuration list for PBXProject "BneiSakhninApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC22B2212AC4792F00B7C3BD;
+			packageReferences = (
+				BC61D0592AC48513008B0745 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = BC22B22B2AC4793000B7C3BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC22B2292AC4793000B7C3BD /* BneiSakhninApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC22B2282AC4793000B7C3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC22B2362AC4793000B7C3BD /* Preview Assets.xcassets in Resources */,
+				BC22B2322AC4793000B7C3BD /* Assets.xcassets in Resources */,
+				BC22B23F2AC47CCB00B7C3BD /* SakhninLogo.jpeg in Resources */,
+				BC61D0582AC484AD008B0745 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC22B2262AC4793000B7C3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC22B2412AC47D4F00B7C3BD /* SignUpView.swift in Sources */,
+				BC22B2302AC4793000B7C3BD /* SignInView.swift in Sources */,
+				BC61D05F2AC48E18008B0745 /* InputView.swift in Sources */,
+				BCF014B52AC6E94B0065B7AA /* Shop.swift in Sources */,
+				BCF014B12AC6E93B0065B7AA /* Fixtures.swift in Sources */,
+				BCF014B72AC6E94E0065B7AA /* More.swift in Sources */,
+				BC22B23D2AC47C0600B7C3BD /* MainView.swift in Sources */,
+				BC22B22E2AC4793000B7C3BD /* BneiSakhninApp.swift in Sources */,
+				BCF014B32AC6E9460065B7AA /* Videos.swift in Sources */,
+				BC34BAF32AC61DC10040D3C2 /* MainView1.swift in Sources */,
+				BCF014AF2AC6E9310065B7AA /* Home.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC22B2372AC4793000B7C3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC22B2382AC4793000B7C3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BC22B23A2AC4793000B7C3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BneiSakhninApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BneiSakhninApp;
+				PRODUCT_NAME = "Bnei Sakhnin";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC22B23B2AC4793000B7C3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BneiSakhninApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BneiSakhninApp;
+				PRODUCT_NAME = "Bnei Sakhnin";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC22B2252AC4792F00B7C3BD /* Build configuration list for PBXProject "BneiSakhninApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC22B2372AC4793000B7C3BD /* Debug */,
+				BC22B2382AC4793000B7C3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC22B2392AC4793000B7C3BD /* Build configuration list for PBXNativeTarget "BneiSakhninApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC22B23A2AC4793000B7C3BD /* Debug */,
+				BC22B23B2AC4793000B7C3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BC61D0592AC48513008B0745 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BC61D05A2AC48514008B0745 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC61D0592AC48513008B0745 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BC61D05C2AC48514008B0745 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC61D0592AC48513008B0745 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BC22B2222AC4792F00B7C3BD /* Project object */;
+}
