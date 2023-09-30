@@ -2,7 +2,7 @@ import SwiftUI
 
 struct Videos: View {
     var body: some View {
-        Text("Hello, SwiftUI!")
+        Text("Hello, Videos!")
             .padding()
     }
 }

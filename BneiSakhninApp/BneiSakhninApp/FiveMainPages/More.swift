@@ -2,7 +2,7 @@ import SwiftUI
 
 struct More: View {
     var body: some View {
-        Text("Hello, SwiftUI!")
+        Text("Hello, More!")
             .padding()
     }
 }

@@ -1,5 +1,5 @@
 import SwiftUI
-import FirebaseAuth // Import FirebaseAuth
+import FirebaseAuth 
 
 struct SignUpView: View {
     @State private var email = ""

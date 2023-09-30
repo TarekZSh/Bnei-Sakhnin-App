@@ -1,46 +1,61 @@
 import SwiftUI
 
 struct MainView1: View {
+    init() {
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color("RedSakh1"))
+    }
+
     var body: some View {
-        NavigationView {
-            List {
-                NavigationLink(destination: Home()) {
-                    Text("Section 1")
+        VStack{
+        TabView {
+            // View 1
+            Home()
+                .tabItem
+                {
+                    Image(systemName: "house.fill")
+                    Text("Home")
                 }
-                NavigationLink(destination: Fixtures()) {
-                    Text("Section 2")
+                .tag(0)
+            
+            // View 2
+            Fixtures()
+                .tabItem
+                {
+                    Image(systemName: "calendar.circle.fill")
+                    Text("Fixtures")
                 }
-                NavigationLink(destination: Videos()) {
-                    Text("Section 3")
+                .tag(1)
+            
+            // View 3
+            Videos()
+                .tabItem {
+                    Image(systemName: "video")
+                    Text("Videos")
                 }
-                NavigationLink(destination: Shop()) {
-                    Text("Section 4")
+                .tag(2)
+                .padding(10)
+            
+            // View 4
+            Shop()
+                .tabItem {
+                    Image(systemName: "basket.fill")
+                    Text("Shop")
                 }
-                NavigationLink(destination: More()) {
-                    Text("Section 5")
+                .tag(3)
+            
+            // View 5
+            More()
+                .tabItem {
+                    Image(systemName: "plus")
+                    Text("More")
                 }
-            }
-            .navigationBarTitle("Main View 1")
         }
-        Spacer()
-        NavigationLink
+    }
+    .onAppear()
         {
-            SignInView()
-                .navigationBarBackButtonHidden(true)
+        UITabBar.appearance().backgroundColor = UIColor(Color("RedSakh"))
         }
-        label:
-        {
-            HStack(spacing:2)
-            {
-                Text("Home")
-                //Image(systemName: "home")
-            }
-            .frame(width: UIScreen.main.bounds.width - 32,height: 48)
-            .foregroundColor(.white)
-            .background(Color("RedSakh"))
-            .cornerRadius(10)
-            .padding(.top,25)
-        }
+        .tint(Color.white)
     }
 }
 

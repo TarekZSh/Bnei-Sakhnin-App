@@ -10,8 +10,8 @@ struct MainView: View {
                     VStack {
                         Image("FansBg")
                             .resizable()
-                            .frame(width: 400, height: 860)
-                            .padding(.top, -25)
+                            .frame(width: .infinity, height: 950)
+                            .padding(.top,-70 )
                             .aspectRatio(contentMode: .fit)
                     }
                 }
@@ -26,10 +26,11 @@ struct MainView: View {
                             {
                             Text("Next")
                             }
-                        .frame(width: UIScreen.main.bounds.width, height: 60)
+                            .frame(width: UIScreen.main.bounds.width,
+                        height:55)
                         .foregroundColor(.white)
                         .background(Color("RedSakh"))
-                        .padding(.top, 780)
+                        .padding(.top, 790)
                         .fontWeight(.black)
                         .font(.system(size: 26))
                         }
@@ -41,9 +42,7 @@ struct MainView: View {
                     {
                         EmptyView()
                     }
-                 
                 }
-                 
             }
         }
     }

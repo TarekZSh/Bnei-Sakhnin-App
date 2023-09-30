@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  LogInDB
-//
-//  Created by Bader Shalata on 9/27/23.
-//
-
 import SwiftUI
 struct SignInView: View
 {
@@ -49,7 +42,8 @@ struct SignInView: View
                     Text("Sign In")
                     Image(systemName: "arrow.right")
                 }
-                .frame(width: UIScreen.main.bounds.width - 32,height: 48)
+                .frame(width: UIScreen.main.bounds.width - 32,
+            height: 48)
                 .foregroundColor(.white)
                 .fontWeight(.bold)
                 .background(Color("RedSakh"))

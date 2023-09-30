@@ -2,7 +2,7 @@ import SwiftUI
 
 struct Fixtures: View {
     var body: some View {
-        Text("Hello, SwiftUI!")
+        Text("Hello, Fixtures!")
             .padding()
     }
 }
