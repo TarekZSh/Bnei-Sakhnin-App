@@ -6,16 +6,28 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                if !isClicked {
-                    VStack {
-                        Image("FansBg")
-                            .resizable()
-                            .frame(width: .infinity, height: 950)
-                            .padding(.top,-70 )
-                            .aspectRatio(contentMode: .fit)
+                Image("FansBg")
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea(.all)
+                    .offset(CGSize(width: -55, height: 0))
+                VStack{
+                    Spacer()
+                    HStack{
+                        Button{
+                            isClicked.toggle()
+                        }label: {
+                            Text("Next")
+                                .foregroundColor(.white)
+                                .font(.system(size: 50))
+                                .padding(.horizontal,160)
+                                .background(Color("RedSakh"))
+                        }
                     }
+                    
                 }
                 
+                 /*
                 VStack {
                     Button(action:
                         {
@@ -43,6 +55,7 @@ struct MainView: View {
                         EmptyView()
                     }
                 }
+                  */
             }
         }
     }
