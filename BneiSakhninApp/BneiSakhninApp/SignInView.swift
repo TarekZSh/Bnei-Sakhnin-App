@@ -65,6 +65,8 @@ struct SignInView: View
                 {
                     SignUpView()
                 }
+                
+                
             label:
             {
                     Text("Sign Up!")
